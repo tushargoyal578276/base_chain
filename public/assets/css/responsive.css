@@ -1,0 +1,339 @@
+/*========== XL-DESKTOP : BETWEEN 1200px TO 1500PX. ==========*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+   /* GLOBAL */
+   h4 {
+      font-size: 25px;
+   }
+
+   .container {
+      max-width: 1120px;
+   }
+
+   .mainmenu li a {
+      font-size: .9em;
+   }
+
+   /* GLOBAL// */
+}
+
+/*========== LG + MD : BETWEEN 768PX TO 1199PX. ==========*/
+@media (min-width: 768px) and (max-width: 1199px) {
+
+   /* GLOBAL */
+   h1 {
+      font-size: 45px;
+   }
+
+   h2 {
+      font-size: 38px;
+   }
+
+   h3 {
+      font-size: 30px;
+   }
+
+   h4 {
+      font-size: 22px;
+   }
+
+   h5 {
+      font-size: 20px;
+   }
+
+   h6 {
+      font-size: 15px;
+   }
+
+   body {
+      font-size: 14px;
+   }
+
+   /* GLOBAL// */
+}
+
+/*========== LG-DESKTOP : BETWEEN 992PX TO 1199px. ==========*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+   /* GLOBAL */
+   .container {
+      max-width: 920px;
+   }
+
+   /* GLOBAL// */
+}
+
+/*========== MD-TABLET : BETWEEN 768PX TO 991PX ==========*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+   /* GLOBAL */
+   .container {
+      max-width: 750px;
+   }
+
+   /* GLOBAL// */
+
+   /* HEADER AREA */
+   .header-area .container {
+      max-width: 100%;
+   }
+   .mainmenu {
+      position: absolute;
+      width: 400px;
+      right: 0;
+      top: 0;
+      padding: 1em;
+      height: 100vh;
+      overflow-y: auto;
+      padding-top: 4em;
+      transform: translate(100%);
+      transition: .5s ease;
+      opacity: 0;
+      background: #fff;
+   }
+
+   .mainmenu.active {
+      transform: translate(0%);
+      opacity: 1;
+   }
+
+   .mainmenu>ul {
+      flex-direction: column;
+   }
+
+   .mainmenu>ul>li>a {
+      text-align: left;
+   }
+
+   .submenu {
+      position: relative;
+      opacity: 1;
+      top: 0 !important;
+      min-width: auto;
+      border-top-width: 3px;
+      display: none;
+      width: 100%;
+   }
+
+   .mainmenu>ul>li {
+      position: relative;
+      display: block;
+   }
+
+   .mainmenu>ul>li>a {
+      padding-right: 2em;
+   }
+
+   .menu-icon {
+      position: absolute;
+      right: .25em;
+      top: 1em;
+      height: 2em;
+      width: 2em;
+      border-radius: 50%;
+      border: 0;
+      background: var(--theme-color);
+      color: #fff;
+      font-size: .8em;
+      display: inline-block;
+   }
+
+   .mainmenu li:hover>a {
+      color: #000;
+   }
+
+   .mainmenu li a {
+      color: rgba(0, 0, 0, 0.6);
+      display: block;
+      font-size: 1.2em;
+   }
+
+   .submenu li a:hover {
+      color: #fff;
+   }
+
+   /* HEADER AREA// */
+
+   /* INVESTORS AREA */
+   .investors-area::before {
+      opacity: .7;
+   }
+
+   /* INVESTORS AREA// */
+
+   /* PRODUCT AREA// */
+   .product-item h4 {
+      line-height: 1.2;
+      font-size: 1.2em;
+   }
+
+   /* PRODUCT AREA// */
+
+   /* MEMBERSHIP AREA */
+   .membership-body {
+      padding: 1em;
+      padding-top: .5em;
+   }
+
+   /* MEMBERSHIP AREA// */
+}
+
+/*========== SMALL MOBILE : SMALLER THEN 767PX ==========*/
+@media (max-width: 767px) {
+
+   /* GLOBAL */
+   h1 {
+      font-size: 32px;
+   }
+
+   h2 {
+      font-size: 28px;
+   }
+
+   h3 {
+      font-size: 22px;
+   }
+
+   h4 {
+      font-size: 18px;
+   }
+
+   h5 {
+      font-size: 16px;
+   }
+
+   h6 {
+      font-size: 14px;
+   }
+
+   body {
+      font-size: 14px;
+   }
+
+   /* GLOBAL// */
+
+   /* HEADER AREA */
+   .logo img {
+      max-width: 10em;
+   }
+
+   .header-area .container {
+      max-width: 100%;
+   }
+   .mainmenu {
+      position: absolute;
+      min-width: 80%;
+      width: 100%;
+      right: 0;
+      top: 0;
+      padding: 1em;
+      height: 100vh;
+      overflow-y: auto;
+      padding-top: 4em;
+      transform: translate(100%);
+      transition: .5s ease;
+      opacity: 0;
+      background: #fff;
+   }
+
+   .mainmenu.active {
+      transform: translate(0%);
+      opacity: 1;
+   }
+
+   .mainmenu>ul {
+      flex-direction: column;
+   }
+
+   .mainmenu>ul>li>a {
+      text-align: left;
+   }
+
+   .submenu {
+      position: relative;
+      opacity: 1;
+      top: 0 !important;
+      min-width: auto;
+      border-top-width: 3px;
+      display: none;
+      width: 100%;
+      margin-bottom: .8em;
+   }
+
+   .mainmenu>ul>li {
+      position: relative;
+      display: block;
+   }
+
+   .mainmenu>ul>li>a {
+      padding-right: 2em;
+   }
+
+   .menu-icon {
+      position: absolute;
+      right: .25em;
+      top: 1em;
+      height: 2em;
+      width: 2em;
+      border-radius: 50%;
+      border: 0;
+      background: var(--theme-color);
+      color: #fff;
+      font-size: .8em;
+      display: inline-block;
+   }
+
+   .mainmenu li:hover>a {
+      color: #000;
+   }
+
+   .mainmenu li a {
+      color: rgba(0, 0, 0, 0.6);
+      display: block;
+      font-size: 1.2em;
+   }
+
+   .submenu li a:hover {
+      color: #fff;
+   }
+
+   /* HEADER AREA// */
+
+   /* INVESTORS AREA */
+   .investors-area::before {
+      opacity: .7;
+   }
+
+   /* INVESTORS AREA// */
+
+   /* WORK AREA */
+   .video-wrapper {
+      height: 18em;
+      position: relative;
+      z-index: 1;
+   }
+
+   /* WORK AREA// */
+
+   /* FEATURE AREA */
+   div:nth-last-child(2)>.feature-item::before,
+   div:nth-last-child(2)>.feature-item::after {
+      display: block;
+   }
+
+   /* FEATURE AREA// */
+
+   /* FOOTER AREA */
+   .social-area .circle-icon {
+      font-size: 1.8em;
+   }
+
+   /* FOOTER AREA// */
+}
+
+/*========== LARGE MOBILE : BETWEEN 480PX TO 767PX ==========*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   .container {
+      max-width: 350px;
+   }
+}

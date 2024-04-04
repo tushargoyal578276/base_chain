@@ -1,0 +1,55 @@
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  color: #A6185E;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+  color: #A6185E;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  /* background: #ffffff; */
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+  /* Scroll Bar */
+  .react-select__menu ::-webkit-scrollbar {
+    width: 4px ;
+    height: 0px ;
+    border-radius: 2px;
+    background: #A6185E ;
+  }
+  .react-select__menu ::-webkit-scrollbar-track {
+    background: #070097;
+    border-radius: 2px;
+  }
+  .react-select__menu ::-webkit-scrollbar-thumb {
+    background: #A6185E;
+    border-radius: 2px;
+  }
+  .react-select__menu ::-webkit-scrollbar-thumb:hover {
+    background: #7329d4;
+    border-radius: 2px;
+  }
